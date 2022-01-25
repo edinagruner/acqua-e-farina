@@ -54,7 +54,7 @@ body{
 
 nav{
 
-    background-color:rgba(14, 34, 48, 0.8);
+    background-color:rgba(14, 34, 48, 1);
 }
 ul {
     list-style: none;
@@ -664,22 +664,22 @@ input[type=submit]:hover {
 #footer{
     background-color: #E6E8E7;
     background-image: url(img/basilica-bg.png);
-    padding-top:30px;
-   
+    position: relative;
+   z-index:20;
     
 }
 #footer-logo-box{
-    width:300px;
-    margin:auto;
-    text-align:center;
+  
+    padding:60px 0 0;
+  
 }
 #footer-logo{
     background-image: url("img/footer-logo.png");
     background-size:100%;
     background-repeat: no-repeat;
     margin:0 auto ;
-    width:150px;
-    height:60px;
+    width:190px;
+    height:90px;
    
    
 }
@@ -687,7 +687,7 @@ input[type=submit]:hover {
     display: grid;
     grid-template-columns: 33.33% 33.33% 33.33%;
   
-    padding:30px 30px 0 30px;
+    padding:0 30px 0 30px;
     font-weight: 100;
    
 }
@@ -740,7 +740,77 @@ ul.footer{
 .cookiealert>a:hover{
     color:#E6E8E7;
 }
+/*Menu page*/
 
+/*Menu section*/
+
+section#menu-section{
+    width:100%;
+  overflow:hidden;
+
+}
+/*Left-side*/
+#left-side{
+width:25%;
+border:2px solid #E6E8E7;
+background-image: url("img/basilica-bg.png");
+padding:0 30px;
+height:100vh;
+float:left;
+left:0;
+position: fixed;
+
+}
+#logo-head{
+    width:25%;
+    margin:20px auto;
+}
+#logo-head>img{
+   width:100%;
+
+}
+ul#menu-left-side{
+    display: block;
+    text-align: center;
+    position:absolute;
+
+}
+.spot{
+    background-color: #C78E38;
+    width:8px;
+    height:8px;
+    border-radius:100%;
+    text-align: center;
+    margin:20px auto;
+}
+#menu-left-side>li{
+    margin:30px 0;
+
+ 
+}
+#menu-left-side>li>a{
+    color:#0E2230;
+    font-size:1rem;
+   
+}
+#menu-left-side>li>a:hover{
+    color:#C78E38;
+}
+/*Right-side*/
+#right-side{
+width:75%;
+float:right;
+right:0;
+padding:30px;
+}
+h4.our-menu{
+   text-align: center;
+   float:none;
+   margin:-160px auto 90px;
+}
+#menu-page-footer{
+    clear: both;
+}
 @media only screen and (max-width: 1700px){
 #border-main-container, #about, #book-a-table, #lets-eat, #here-we-are, .contact-box{
     width:85%;
@@ -752,7 +822,12 @@ ul.footer{
 @media only screen and (max-width: 1190px){
     #border-main-container, #about, #book-a-table, #lets-eat, #here-we-are, .contact-box{
         width:90%;
+  
     }
+    #right-side{
+        margin-top:90px;
+    }
+}
 @media only screen and (max-width: 1024px){
     #border-main-container, #about, #book-a-table, #lets-eat, #here-we-are, .contact-box{
         width:100%;
@@ -766,8 +841,8 @@ ul.footer{
  .footer-grid.second>h3 {
      width:100%;
  }
-}
-@media only screen and (max-width: 1024px){
+
+
     .here-we-are-text-box, .book-a-table-textbox {
 padding:30px;
     } 
@@ -904,6 +979,9 @@ nav{
      .button-box {
          width:100%;
      }
+     .btn-outline-dark{
+         width:120px;
+     }
      .dropdown-menu>li>a{
          color:#0E2230;
          margin:15px;
@@ -924,11 +1002,11 @@ nav{
         .contact-box {
             padding: 30px 0;
         }
-}
-@media only screen and (max-width: 590px){
+
+
     .our-menu, .opening{
         padding:10px 15px;
-        width:120px;
+       
     }
     a.sticky.place, a.sticky.phone, a.sticky.arrow{
     right:10px;
@@ -944,4 +1022,22 @@ nav{
     .carousel-control-next, .carousel-control-prev{
         top:60px;
     }
+    #left-side{
+        width:35%;
+        padding:20px;
+    }
+    #right-side{
+        width:65%;
+        padding:20px;
+        
+    }
+    #logo-head{
+        width:70%;
+    }
+}
+@media only screen and (max-width: 390px){
+    .btn-outline-dark{
+        width:100px;
+        padding:5px;
+    } 
 }
