@@ -330,13 +330,11 @@ text-align: center;
 
 .pizza-draw{
     text-align: center;
-   width:45%;
-   margin: -20px auto 0;
+ 
+   margin: 90px auto ;
      
 }
-.pizza-draw>img{
-    width:100%;
-}
+
 h4{
     text-align: center;
     font-family: 'Montserrat', sans-serif;
@@ -806,7 +804,7 @@ padding:30px;
 h4.our-menu{
    text-align: center;
    float:none;
-   margin:-160px auto 90px;
+   
 }
 #menu-page-footer{
     clear: both;
@@ -987,9 +985,12 @@ nav{
          margin:15px;
      }
      .pizza-draw{
-         width:90%;
+
+         margin:auto;
      }
-   
+     .pizza-draw>img{
+         width:60%;
+     }
     .lets-eat-grid {
         grid-template-columns: 100%;
     }
@@ -1033,6 +1034,10 @@ nav{
     }
     #logo-head{
         width:70%;
+    }
+    h4.our-menu{
+     font-size: 1.6rem;
+     margin-top:-100px;
     }
 }
 @media only screen and (max-width: 390px){
