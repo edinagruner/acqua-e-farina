@@ -362,7 +362,15 @@ h4{
     line-height: 1.3;
     color:#0E2230;
 }
-
+.yellow{
+    background-color: #C78E38;
+    color:white!important;
+    padding:3px;
+    border-radius:10px;
+    width:50%;
+    margin:auto;
+    
+}
 /*Carousel*/
 
 
