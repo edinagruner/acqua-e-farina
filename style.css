@@ -352,6 +352,17 @@ h4{
     padding:5px;
     margin-bottom:30px;
 }
+.allergens-button, .allergens{
+    border:none;
+    background: none;
+}
+.allergens-button:hover, .allergens:hover{
+    border:none;
+    background: none;  
+}
+.allergens-li{
+    padding:10px;
+}
 .h5{
     color:#0E2230;
     font-family: inherit;
