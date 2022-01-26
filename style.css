@@ -663,7 +663,7 @@ input[type=submit]:hover {
     background-color: #E6E8E7;
     background-image: url(img/basilica-bg.png);
     position: relative;
-   z-index:20;
+  
     
 }
 #footer-logo-box{
@@ -757,6 +757,7 @@ height:100vh;
 float:left;
 left:0;
 position: fixed;
+top:0;
 
 }
 #logo-head{
@@ -808,6 +809,7 @@ h4.our-menu{
 }
 #menu-page-footer{
     clear: both;
+    z-index:20;
 }
 @media only screen and (max-width: 1700px){
 #border-main-container, #about, #book-a-table, #lets-eat, #here-we-are, .contact-box{
