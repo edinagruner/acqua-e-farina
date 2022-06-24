@@ -151,10 +151,7 @@ h2{
     border-radius: 2px;
      padding: 30px 30px 90px 30px;
   }
-  #main-logo-box{
-      margin:auto;
-      text-align: center;
-  }
+  
   #name-logo{
     width:100%;
     text-align: center;
@@ -162,12 +159,13 @@ h2{
     margin:auto auto 60px;
 
   }
- 
-.logo-subname{
-text-align: center;  
-
-
-
+  #main-logo-box{
+    margin:auto;
+    text-align: center;
+    padding:60px;
+}
+#main-logo-box>img{
+   width:100%;
 }
 .line{
     width: 10%;
@@ -272,6 +270,7 @@ text-align: center;
     text-align: center;
     font-size: 1.8rem;
     line-height: 2;
+    margin:10% auto;
   }
 #about{
     width:60%;
@@ -356,10 +355,7 @@ h4{
     border:none;
     background: none;
 }
-.allergens-button:hover, .allergens:hover{
-    border:none;
-    background: none;  
-}
+
 .allergens-li{
     padding:10px;
 }
@@ -397,6 +393,10 @@ background-color: #0E2230;
 width:30px;
 height:30px;
 top:50%;
+}
+.carousel{
+    width:100%;
+    padding:0;
 }
 /*Book a table Section*/
 
@@ -446,8 +446,9 @@ font-weight: 500;
 #book-a-table-phone-box{
     width:80%;
     border-bottom: 1px solid #C78E38;
-    height:45px;
-    margin-bottom: 60px;
+    height:60px;
+    margin-bottom: 30px;
+   
 
 }
 .book-a-table-phone-number>h4{
@@ -455,7 +456,7 @@ font-weight: 500;
     font-size: 1rem;
     font-family: 'Montserrat', sans-serif;
     text-align: left;
-    margin:60px auto;
+    margin:0 auto;
     
 }
 .book-a-table-phonenumber-icon{
@@ -468,6 +469,7 @@ font-weight: 500;
     color:white;
     float:right;
     margin-right:60px;
+    margin-bottom:0;
 }
 .book-a-table-phone-number>ul{
 text-align: left;
@@ -525,9 +527,14 @@ ul.book-a-table-opening.opening{
     overflow: hidden;
   
 }
+
 .here-we-are-img>img{
     width:100%;
    
+}
+#gmap_canvas{
+width: 101%;
+height:100%;
 }
 .here-we-are-address{
     background-color: #0E2230;
@@ -667,6 +674,9 @@ input[type=submit]:hover {
   margin:30px auto;
   padding-bottom:30px;
 }
+.icon>img{
+    width:60%;
+}
 #fb{
   float:left;
   margin-left:30%;
@@ -696,7 +706,7 @@ input[type=submit]:hover {
     background-repeat: no-repeat;
     margin:0 auto ;
     width:190px;
-    height:90px;
+    height:120px;
    
    
 }
@@ -738,7 +748,16 @@ ul.footer{
 .opening>li{
     margin-top:15px;
 }
-
+#review{
+    width:100%;
+   
+}
+.third{
+    padding:30px 0;
+}
+#review>img{
+    width:100%;
+}
 /*Cookie alert*/
 .cookiealert{
     background:#C78E38 !important;
