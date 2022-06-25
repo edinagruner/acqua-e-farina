@@ -107,7 +107,7 @@ li>a:hover{
 
 
 
-  #main{
+#main{
     width:100%;
     background-image: url("img/main-bg.jpg");
     background-size: cover;
@@ -254,7 +254,7 @@ li>a:hover{
     text-align: center;
     font-size: 1.8rem;
     line-height: 2;
-    margin:10% auto;
+    margin: auto;
   }
 #about{
     width:60%;
@@ -897,6 +897,19 @@ h4.our-menu{
     #border-main-container, #about, #book-a-table, #lets-eat, #here-we-are, .contact-box{
         width:100%;
 }
+img.carousel{
+    width:80%;
+}
+.about-text.second{
+    padding: 25px 20px;
+  
+}
+.book-a-table-phone-number {
+    padding:30px;
+}
+.bg-red>h2{
+    margin-top:20px;
+}
 .footer-grid-box{
     padding:0;
 }
@@ -1109,6 +1122,9 @@ nav{
     a.sticky.place, a.sticky.phone, a.sticky.arrow{
     right:10px;
     }
+    .footer-grid{
+        text-align: center;
+    }
     #footer-nav>li>a{
         font-size: 10px;
        
@@ -1117,6 +1133,7 @@ nav{
     ul#footer-nav{
         padding:15px;
     }
+    
     .carousel-control-next, .carousel-control-prev{
         top:60px;
     }
@@ -1140,10 +1157,18 @@ nav{
     .made-with {
         padding:30px 0;
     }
+    #left-side{
+        top:60px;
+        border-bottom: none;
+        border-top: none;
+    }
 }
 @media only screen and (max-width: 390px){
     .btn-outline-dark{
         width:100px;
         padding:5px;
     } 
+    .footer-grid{
+        padding:10px;
+    }
 }
