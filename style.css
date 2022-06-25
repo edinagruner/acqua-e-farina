@@ -860,7 +860,7 @@ padding:30px;
 .made-with{
     width:60%;
     margin:60px auto;
-    border-bottom: dotted #C78E38 2px;
+    border-bottom: solid #C78E38 2px;
     padding:30px;
 }
 h4.our-menu{
@@ -1005,6 +1005,9 @@ h3{
     }
     .here-we-are-img>img{
         width:100%;
+    }
+    .made-with{
+        width:90%;
     }
 }
 @media only screen and (max-width: 590px){
