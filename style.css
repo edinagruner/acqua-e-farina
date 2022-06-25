@@ -329,11 +329,12 @@ h4{
     display: grid;
     grid-template-columns:25% 25% 25% 25%;
     text-align: center;
-    margin-top:120px;
+  
 }
 .grid-item{
     padding:5px;
     margin-bottom:30px;
+    border-right:#81261F solid 1px;
 }
 .allergens-button, .allergens{
     border:none;
@@ -859,8 +860,7 @@ padding:30px;
 }
 .made-with{
     width:60%;
-    margin:60px auto;
-    border-bottom: solid #C78E38 2px;
+    margin:30px auto;
     padding:30px;
 }
 h4.our-menu{
