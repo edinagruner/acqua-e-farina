@@ -297,7 +297,7 @@ li>a:hover{
    
 }
 .farina>img{
-    width:50%;
+    width:70%;
 }
  #lets-eat-box{
     background-image: url("img/basilica-bg.png");
@@ -351,6 +351,7 @@ h4{
 }
 .pizza-name.h5{
     color:#81261F;
+    font-weight: bolder; 
 }
 .pizza-ingredients{
    height: max-content;
@@ -367,7 +368,8 @@ p.yellow{
     border-radius:10px;
     margin:auto;
     font-family: 'Nothing You Could Do', cursive;
-    font-size:1.6rem;   
+    font-size:1.3rem; 
+     
 }
 /*Carousel*/
 
@@ -918,7 +920,9 @@ padding:30px;
    }
 }
 @media only screen and (max-width: 768px){
-  
+    #main-logo-box{
+        padding:5px;
+    }
     .line{
         width:60%;
         margin:30px 0;
@@ -929,8 +933,8 @@ padding:30px;
     li>a{
         font-size: medium;
     }
-    .about-text>h3 {
-        font-size:2.2rem ;
+    #about-text-box>h3 {
+        font-size:1.6rem ;
     }
   
 
@@ -943,11 +947,22 @@ padding:30px;
     .lets-eat-grid{
         grid-template-columns: 50% 50%;
     }
+    img.carousel{
+        width:100%;
+    }
+    ul.book-a-table-opening.opening{
+        width:100%;
+        padding:0;
+    }
+    .here-we-are-address>h4{
+        margin-top:20px;
+    }
     #border-main-container{
         padding:15px;
     }
     .footer-grid-box, #about-grid-box{
-        grid-template-columns:100%;   
+        grid-template-columns:100%;
+      
     }
   
     .icon{
@@ -989,7 +1004,7 @@ ul.book-a-table-opening.opening>li{
 font-size:1.3rem ;
 }
 p{
-    font-size:1.2rem;
+    font-size:1rem;
 }
 h3{
     font-size:2rem;
@@ -1000,8 +1015,12 @@ h3{
         grid-column-end: 2;
         overflow: hidden;
     }
+    .book-a-table-img>img {
+        width:100%;
+       }
     .here-we-are-img {
         grid-row-start:4;
+        height:300px;
     }
     .here-we-are-img>img{
         width:100%;
@@ -1009,6 +1028,18 @@ h3{
     .made-with{
         width:90%;
     }
+    .here-we-are-address{
+        padding:30px 5px;
+    }
+    
+element.style {
+}
+.contact-box>h2, .here-we-are-address>h4{
+    font-size: 2rem;
+}
+.col-75{
+    width:100%;
+}
 }
 @media only screen and (max-width: 590px){
  
@@ -1091,7 +1122,7 @@ nav{
     }
     #left-side{
         width:35%;
-        padding:20px;
+        padding:5px;
     }
     #right-side{
         width:65%;
@@ -1104,6 +1135,10 @@ nav{
     h4.our-menu{
      font-size: 1.6rem;
      margin-top:-100px;
+    }
+  
+    .made-with {
+        padding:30px 0;
     }
 }
 @media only screen and (max-width: 390px){
