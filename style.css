@@ -336,6 +336,9 @@ h4{
     margin-bottom:30px;
     border-right:#81261F solid 1px;
 }
+.carousel-item>.grid-item{
+    border:none;
+}
 .allergens-button, .allergens{
     border:none;
     background: none;
@@ -388,7 +391,7 @@ height:30px;
 top:50%;
 }
 img.carousel{
-    width:60%;
+    width:80%;
     padding:0;
 }
 /*Book a table Section*/
@@ -464,8 +467,6 @@ font-weight: 500;
 }
 .book-a-table-phonenumber{
     color:white;
-    float:right;
-    margin-right:60px;
     margin-bottom:0;
 }
 .book-a-table-phone-number>ul{
@@ -492,7 +493,8 @@ margin-top:30px;
 .book-a-table-textbox>h2{
     color:white;
     font-weight: 900;
-    margin:100px;
+   text-align:center;
+   margin-top:180px;
 
 }
 .book-a-table-textbox:hover{
@@ -559,6 +561,7 @@ height:100%;
 }
 .here-we-are-text-box>h2{
     color:white;
+    text-align: center;
 }
 .here-we-are-text-box:hover{
     opacity: 0;
@@ -751,16 +754,17 @@ ul.footer{
     background-color: #81261F;
     width:100%;
 }
-.opening>li{
+.opening.footer>li{
     margin-top:15px;
     color: #0E2230;
     font-weight: bolder;
+  
 }
 .book-a-table-opening>li{
     color:white;
 }
 #footer-social-box{
-    width:100%;
+    width:200px;
     height:60px;
     text-align: left;
     margin-top:30px;
@@ -772,7 +776,6 @@ ul.footer{
 }
 #insta-footer{
     float:right;
-    margin-right:50%;
     width:50px;
 }
 /*Cookie alert*/
@@ -897,9 +900,7 @@ h4.our-menu{
     #border-main-container, #about, #book-a-table, #lets-eat, #here-we-are, .contact-box{
         width:100%;
 }
-img.carousel{
-    width:80%;
-}
+
 .about-text.second{
     padding: 25px 20px;
   
@@ -946,8 +947,8 @@ padding:30px;
     li>a{
         font-size: medium;
     }
-    #about-text-box>h3 {
-        font-size:1.6rem ;
+    .footer-grid{
+        text-align: center;
     }
   
 
@@ -957,19 +958,39 @@ padding:30px;
     .about-img.first{
         grid-row-start:4;
     }
+    .about-text.second{
+        padding:90px 20px;
+    }
     .lets-eat-grid{
         grid-template-columns: 50% 50%;
     }
     img.carousel{
         width:100%;
     }
-    ul.book-a-table-opening.opening{
+    .book-a-table-phonenumber-icon{
+     float:none;
+     margin:30px auto;
+     width:40px;
+    }
+   
+    #book-a-table-phone-box{
         width:100%;
+        text-align: center;
+        margin:30px auto;
+        padding:0 0 30px 0;
+        height:fit-content;
+    }
+    ul.book-a-table-opening.opening, .opening.footer{
+        width:fit-content;
         padding:0;
+       margin:60px auto;
+       float:none;
+       text-align: left;
     }
     .here-we-are-address>h4{
         margin-top:20px;
     }
+   
     #border-main-container{
         padding:15px;
     }
@@ -1021,6 +1042,7 @@ p{
 }
 h3{
     font-size:2rem;
+    text-align:center;
   
 }
     .book-a-table-img {
@@ -1052,6 +1074,10 @@ element.style {
 }
 .col-75{
     width:100%;
+}
+#footer-social-box{
+  margin:auto;
+  text-align: center;
 }
 }
 @media only screen and (max-width: 590px){
@@ -1122,9 +1148,7 @@ nav{
     a.sticky.place, a.sticky.phone, a.sticky.arrow{
     right:10px;
     }
-    .footer-grid{
-        text-align: center;
-    }
+    
     #footer-nav>li>a{
         font-size: 10px;
        
