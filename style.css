@@ -254,7 +254,7 @@ li>a:hover{
     text-align: center;
     font-size: 1.8rem;
     line-height: 2;
-    margin: auto;
+    margin:auto;
   }
 #about{
     width:60%;
@@ -270,7 +270,7 @@ li>a:hover{
 
   }
   .about-text{
-      padding: 90px 20px;
+      padding: 120px 20px;
      background-color: #E6E8E7;
      background-image: url('img/basilica-bg.png');
      color:#0E2230;
