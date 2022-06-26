@@ -879,6 +879,11 @@ h4.our-menu{
     clear: both;
     z-index:20;
 }
+.spot.menu{
+    background-color: #0E2230;
+    width:4px;
+    height:4px;
+}
 @media only screen and (max-width: 1700px){
 #border-main-container, #about, #book-a-table, #lets-eat, #here-we-are, .contact-box{
     width:85%;
@@ -1175,7 +1180,7 @@ nav{
     }
     h4.our-menu{
      font-size: 1.6rem;
-     margin-top:-100px;
+    
     }
   
     .made-with {
@@ -1185,6 +1190,10 @@ nav{
         top:60px;
         border-bottom: none;
         border-top: none;
+    }
+    .grid-item{
+        border-bottom:#81261F solid 1px;
+        border-right: none;
     }
 }
 @media only screen and (max-width: 390px){
