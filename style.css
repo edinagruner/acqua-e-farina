@@ -178,12 +178,9 @@ li>a:hover{
       float: left;
       border-radius: 2px;
       background-color: rgba(14, 34, 48, 0.3);
-    
       color:#0E2230;
       margin:auto;
-      width:160px;
-     
-    
+  
   }
   .our-menu{
       float:left;
@@ -897,6 +894,23 @@ h4.our-menu{
     width:4px;
     height:4px;
 }
+/*Comming soon*/
+
+h1{
+    text-align: center;
+    margin:100px auto;
+}
+#comming_soon-border{
+width:60%;
+border:1px solid #C78E38;
+margin:90px auto;
+height: 20px;
+border-radius: 5px;
+background: rgb(129,38,31);
+background: linear-gradient(90deg, rgba(129,38,31,1) 0%, rgba(199,142,48,1) 80%, rgba(251,251,251,1) 90%, rgba(251,251,251,1) 100%);
+
+}
+
 @media only screen and (max-width: 1700px){
 #border-main-container, #about, #book-a-table, #lets-eat, #here-we-are, .contact-box{
     width:85%;
