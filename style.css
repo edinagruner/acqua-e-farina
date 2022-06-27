@@ -207,6 +207,19 @@ li>a:hover{
   a.sticky>img{
     width:100%;
 }
+a.sticky.en{
+    background-color: #575656;
+    padding: 6px;
+    margin:0;
+    text-align: center;
+    top:80px;
+    width:38px;
+    height:38px;
+    right:0; 
+    color:white;
+    text-decoration: none;
+}
+
   a.sticky.phone{
     background-color: #C78E38;
     padding: 5px;
@@ -242,7 +255,7 @@ li>a:hover{
     height:38px;
     right:0;
   }
-  a.sticky.place:hover, a.sticky.phone:hover{
+  a.sticky.place:hover, a.sticky.phone:hover, a.sticky.en:hover{
     background-color: #0E2230;
 
   }
@@ -819,8 +832,8 @@ top:0;
 
 }
 #logo-head{
-    width:25%;
-    margin:20px auto;
+    width:35%;
+    margin:30px auto;
 }
 #logo-head>img{
    width:100%;
@@ -898,7 +911,7 @@ h4.our-menu{
   
     }
     #right-side{
-        margin-top:90px;
+        margin-top:-90px;
     }
 }
 @media only screen and (max-width: 1024px){
@@ -1150,7 +1163,7 @@ nav{
         padding:10px 15px;
        
     }
-    a.sticky.place, a.sticky.phone, a.sticky.arrow{
+    a.sticky.place, a.sticky.phone, a.sticky.arrow, a.sticky.en{
     right:10px;
     }
     
