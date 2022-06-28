@@ -870,6 +870,12 @@ float:right;
 right:0;
 padding:30px;
 }
+
+.take-away{
+    float:left;
+    left:20px;
+    font-size: smaller;
+}
 #chicken, #vegetables, #beef, #sea-food, #sweet, #hot-drinks, #cold-drinks{
     margin:60px auto;
 }
